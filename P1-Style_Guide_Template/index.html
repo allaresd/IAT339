@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01 - Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <header>
+      <h1>P01 - Style Guide Template</h1>
+
+      <p>A template you can use to start building out your own style guides with.</p>
+
+
+      <nav>        
+        <a href="#interactive_elements">Interactive Elements</a>
+        <a href="#text_elements">Text Elements</a>
+        <a href="#combined_elements">Combined Elements</a>
+        <a href="product_listing.html">Product Listing Template</a>
+        <a href="checkout.html">Checkout Template</a>
+        <a href="#citations">Citations</a>
+      </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+
+      <section class="element">
+        <h3>In-text link</h3>
+
+          <p> <a href="https://learn.shayhowe.com/html-css/building-your-first-web-page/">Click here</a> and you will jump to another webpage.</p>
+          <p> <a href="https://learn.shayhowe.com/html-css/building-your-first-web-page/" target="_blank">Click here</a> and you will open the link in a new window or tab.</p>
+          <!-- Reference: https://www.tutorialspoint.com/html/html_text_links.htm -->
+     
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+        <h3>Navigation Link</h3>
+
+          <h4>Navigation link</h4>
+          <p>Click the text below and the page will navigate to the last citations section.</p>
+          <nav>
+            <a href="#citations">Skip to the Citations section</a>
+          </nav>
+          <!-- Reference: https://www.w3schools.com/tags/tag_nav.asp -->
+
+          <h4>CSS selector:</h4>
+          <p>.button-nav</p>
+
+          <h4>Sample code:</h4>
+          <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+          <h4>Rendered element:</h4>
+          <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+
+      
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+
+          <P>Label and text field on the same line</P>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <P>Label and text field on different lines</P>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname">
+          <!-- Reference:https://www.w3schools.com/tags/att_input_type_text.asp -->
+      </section>
+
+
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+
+          <form>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <button type="submit" value="Submit">Submit</button>
+          <button type="reset" value="Reset">Reset</button>
+          </form>
+          <!-- Reference: https://www.w3schools.com/tags/att_button_type.asp -->
+
+      </section>
+
+
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+          
+          <input type="radio" id="age1" name="age" value="18">
+          <label for="age1">0-18</label><br>
+          <input type="radio" id="age2" name="age" value="35">
+          <label for="age1">19-35</label><br>
+          <input type="radio" id="age3" name="age" value="60">
+          <label for="age1">36-60</label><br>
+          <input type="radio" id="age4" name="age" value="80">
+          <label for="age1">61+</label>
+          <!-- Reference: https://www.w3schools.com/tags/att_input_type_radio.asp -->
+
+      </section>
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+       
+          <a href="https://unsplash.com/photos/koOdUvfGr4c"> 
+            <img id="image1" src="image1.jpg">
+          </a>
+          <!-- Reference: https://pagedart.com/blog/linking-images-in-html/ -->
+
+      </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+          <p>Here are four levels of headings</p>
+            <h1>The First Level of Heading</h1>
+            <h2>The Second Level of Heading</h2>
+            <h3>The Third Level of Heading</h3>
+            <h4>The Fourth Level of Heading</h4>
+
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+          <P>This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. 
+            This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph.</P>
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+
+          <p>Here are our services:</p>
+          <ol>
+            <li>Study rooms</li>
+            <li>Drinks</li>
+            <li>Snacks</li>
+          </ol> 
+          <!-- Reference: https://www.w3schools.com/html/html_lists_ordered.asp -->
+
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+      </section>
+
+      <section class="element">
+        <h3>Product/Service Listing</h3>
+
+      </section>
+
+      <section class="element">
+        <h3>Payment Form</h3>
+      </section>
+
+      <section class="element">
+        <h3>Checkout Cart</h3>
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+    <!-- BRANDING IDEAS SECTION // -->
+    <section id="branding_ideas">
+      <h2>Branding Ideas</h2>
+        <h3>Our Services</h3>
+        <h3>Target Market</h3>
+        <h3>Why might this company entice someone to purchase a product or service</h3>
+
+    </section>
+    <!-- // BRANDING IDEAS SECTION -->
+
+
+    <!-- BRAND COMPONENTS SECTION // -->
+    <section id="branding_ideas">
+      <h2>Brand Components</h2>
+        <h3>Fonts</h3>
+        <h3>Colour palettes</h3>
+        <h3>Mood board</h3>
+
+    </section>
+    <!-- // BRAND COMPONENTS SECTION -->
+
+
+    
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+        <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
+      </ul>
+
+    </section>
+
+
+
+  </body>
+</html>
